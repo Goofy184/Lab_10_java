@@ -9,11 +9,11 @@ public class Main {
     public static void settingWindowForVariant7(JFrame window) {
         settingWindowForVariant7(window, 0);
     }
-    public static void settingWindowForVariant7(JFrame window, int leftfield) {
+    public static void settingWindowForVariant7(JFrame window, int leftField) {
         Dimension screenSize = getDefaultToolkit().getScreenSize();
         window.setTitle("Нижнє праве вікно");
         window.setSize(600, 700);
-        window.setLocation(screenSize.width - window.getWidth() - leftfield, screenSize.height - window.getHeight());
+        window.setLocation(screenSize.width - window.getWidth() - leftField, screenSize.height - window.getHeight());
         window.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
         window.setFocusableWindowState(true);
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
